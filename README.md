@@ -10,20 +10,14 @@ The following **required** functionalities are completed:
 * [ ] Banner with background image, white text, and a green button
 * [ ] Color or text change when mouse hovers over
 * [ ] At least 3 different body sections with different background images or colors
-* [ ] 2 (or 3) card items per row in a body section
+* [ ] 2 (or 3) card items per row in a body section ( I'm not sure what card items exactly is )
 * [ ] Footer with social icons that link to the actual social pages
 
 The following **optional** features are implemented:
-
-* [ ] Add favicon to the page
-* [ ] Animation on an element
 * [ ] Navigation, contact, sitemap, privacy policy, term of use, etc in footer
-* [ ] Bootstrap carousel for banner
 * [ ] Banner with background video
 
 The following **additional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the page!
 
 ## Video Walkthrough
 
@@ -39,7 +33,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [tusotr]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
