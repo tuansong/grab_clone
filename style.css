@@ -8,7 +8,7 @@
     height: 60px;
     position: fixed;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 
     top: 0px;
 }
@@ -38,7 +38,7 @@
 #navbar .left-menu {
     width: 500px;
     position: absolute;
-    top: 37%;
+    top: 35%;
     left: 13%;
 }
 
@@ -46,7 +46,7 @@
     width: 341px;
     position: absolute;
     right: 7%;
-    top: 37%;
+    top: 35%;
 }
 
 #navbar ul li img {
@@ -75,13 +75,13 @@
 }
 
 #banner {
-    height: 664px;
+    height: 484px;
     position: relative;
     background-color: papayawhip;
 
-    background: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/01_hero_banner.jpg);
+    /* background: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/01_hero_banner.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 
     display: flex;
     flex-direction: column;
@@ -89,10 +89,17 @@
     align-items: center;
 }
 
+#banner .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #banner .grab-intro{
     position: absolute;
     color: white;
-    left: 15%;
+    left: 12%;
+    top: 30%;
+    z-index: 1;
 }
 
 #banner .grab-intro .download {
@@ -236,8 +243,8 @@
 }
 
 #download .second-way img {
-    width: 200px;
-    height: 89px;
+    width: 148px;
+    height: 52px;
 
     padding: 20px;
     padding-left: 60px;
@@ -259,7 +266,7 @@
     justify-content: center;
 
     position: absolute;
-    top: 7%;
+    top: 17%;
     left: 80%;
 
 }
@@ -336,4 +343,48 @@
     left: 45%;
     bottom: 12%;
     text-align: center;
+}
+
+#work-flow {
+    position: relative;
+    height: 625px;
+    background-color: white;
+    text-align: center;
+}
+
+#work-flow .tinny-hand {
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#work-flow .tinny-hand img {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+    left: 48px;
+}
+
+#work-flow .work-step {
+    width: 500px;
+    position: absolute;
+    top:20%;
+    right: 15%;
+    text-align: left;
+}
+
+#work-flow .tinny-hand .changed-images {
+    width: 208px;
+    height: 314px;
+    position: absolute;
+    background-color: springgreen;
+
+    background: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/1_step-1.jpg);
+    background-size: cover;
+
+    top: 59px;
+    left: 161px;
+    z-index: 0;
 }
